@@ -39,3 +39,16 @@ Para avaliar qual modelo se saiu melhor e onde estavam errando, geramos as segui
 
 - Matrizes de Confusão: Analisamos não apenas o quanto o modelo errou, mas como errou. Consideramos aceitável um erro adjacente (o modelo prever 4 quando a nota era 5), mas focamos em mitigar os erros graves (o modelo prever 5 para um cliente que deu nota 1 por conta de ironias).
 
+
+  ## Como Executar o Projeto
+
+  1- Clone este repositório.
+
+  2- Certifique-se de ter as bibliotecas instaladas (pandas, seaborn, matplotlib, transformers, textblob, scikit-learn).
+
+  3- O repositório oficial do LeIA será clonado automaticamente pelo script.
+
+  4- Execute os blocos do Jupyter Notebook na ordem para visualizar a limpeza, aplicação dos modelos e geração dos gráficos.
+
+  Linguagens e Ferramentas: Python, Pandas, Scikit-Learn, Transformers (HuggingFace), Seaborn.
+
