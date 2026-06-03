@@ -18,3 +18,14 @@ O objetivo principal deste projeto é prever a satisfação de clientes de e-com
 
 - Detecção de Sarcasmo e Emojis: Implementamos regras de negócio onde a contagem de emojis positivos/negativos e a presença de sarcasmo (ex: "kkkk péssimo") têm peso decisivo na nota final.
 
+
+## Modelos Utilizados
+
+Para extrair o sentimento dos textos, decidimos testar e comparar 3 abordagens diferentes. Decisão arquitetural: Padronizamos a saída de todos os modelos para a escala real do negócio (1 a 5 estrelas), facilitando a comparação direta.
+
+1- Transformers (RoBERTuito - HuggingFace): Utilização de um modelo de Deep Learning (pysentimiento/robertuito-sentiment-analysis) treinado especificamente para análise de sentimentos em redes sociais em idiomas latinos.
+
+2- LeIA (Léxico Nativo PT-BR): Utilização do repositório LeIA (Lexicon for pt-br), uma adaptação do VADER para português. O modelo avalia a intensidade das palavras (compound) sem precisar de tradução, tornando-o rápido e eficiente. 
+
+3- TextBlob (Tradução + API): Uma biblioteca clássica em inglês. O texto do cliente é traduzido via API para o inglês, a polaridade (-1.0 a 1.0) é calculada e mapeada para as 5 estrelas.
+
