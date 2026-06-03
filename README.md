@@ -29,3 +29,13 @@ Para extrair o sentimento dos textos, decidimos testar e comparar 3 abordagens d
 
 3- TextBlob (Tradução + API): Uma biblioteca clássica em inglês. O texto do cliente é traduzido via API para o inglês, a polaridade (-1.0 a 1.0) é calculada e mapeada para as 5 estrelas.
 
+## Análises e Avaliação de Desempenho
+
+Para avaliar qual modelo se saiu melhor e onde estavam errando, geramos as seguintes visualizações:
+
+- Distribuição de Notas (Gráficos de Barras): Para comparar se a curva de notas gerada pela IA acompanhava a curva real de distribuição dos clientes.
+
+- Matrizes de Correlação (Pearson e Spearman): Fundamentais para medir a relação entre a nota real e a nota calculada. Utilizamos Spearman com destaque, por ser ideal para dados ordinais (rankings de 1 a 5).
+
+- Matrizes de Confusão: Analisamos não apenas o quanto o modelo errou, mas como errou. Consideramos aceitável um erro adjacente (o modelo prever 4 quando a nota era 5), mas focamos em mitigar os erros graves (o modelo prever 5 para um cliente que deu nota 1 por conta de ironias).
+
