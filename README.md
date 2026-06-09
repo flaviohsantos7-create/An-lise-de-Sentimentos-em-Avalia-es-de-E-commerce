@@ -1,9 +1,9 @@
-# Análise de Sentimentos em Avaliações de E-commerce
+Análise de Sentimentos em Avaliações de E-commerce
 
 Este projeto foi desenvolvido de forma colaborativa por uma equipe de 4 pessoas com o objetivo de aplicar técnicas avançadas de Processamento de Linguagem Natural (PLN) e Machine Learning em dados reais do varejo brasileiro.
 
 
-## Objetivo do Projeto
+# Objetivo do Projeto
 
 O objetivo principal deste projeto é prever a satisfação de clientes de e-commerce (notas de 1 a 5 estrelas) baseando-se unicamente no texto de suas avaliações (título e mensagem). Desde o início, nosso foco principal foi implementar um modelo de Deep Learning robusto (Transformers), utilizando outras abordagens clássicas de PLN apenas como base de comparação (baselines).
 
@@ -60,5 +60,5 @@ Para comprovar e documentar esses resultados, geramos as seguintes análises vis
 
 5- Execute as células sequencialmente para ver a limpeza, as regras heurísticas e a geração dos gráficos de comparação.
 
-- Linguagens e Ferramentas: Python, Pandas, Scikit-Learn, Transformers (HuggingFace), Google Colab, GPU T4, Seaborn, Matplotlib.
+Linguagens e Ferramentas: Python, Pandas, Scikit-Learn, Transformers (HuggingFace), Google Colab, GPU T4, Seaborn, Matplotlib.
 
