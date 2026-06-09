@@ -1,4 +1,4 @@
-### Análise de Sentimentos em Avaliações de E-commerce
+# Análise de Sentimentos em Avaliações de E-commerce
 
 Este projeto foi desenvolvido de forma colaborativa por uma equipe de 4 pessoas com o objetivo de aplicar técnicas avançadas de Processamento de Linguagem Natural (PLN) e Machine Learning em dados reais do varejo brasileiro.
 
