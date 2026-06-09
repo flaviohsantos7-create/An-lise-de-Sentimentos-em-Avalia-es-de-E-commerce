@@ -48,19 +48,7 @@ Para comprovar e documentar esses resultados, geramos as seguintes análises vis
 
 - Matrizes de Confusão: Fundamentais para analisar não apenas o quanto o Transformer acertou, mas como ele errou, validando que nossos erros residuais eram aceitáveis (ex: prever 4 quando a nota era 5) e não críticos.
 
-## Como Executar o Projeto
-
-1- Clone este repositório.
-
-2- Suba o notebook (.ipynb) no Google Colab.
-
-3- Ative a Aceleração por Hardware: Ambiente de Execução > Alterar tipo de ambiente de execução > GPU T4.
-
-4- Instale as bibliotecas necessárias listadas no início do notebook (transformers, textblob, etc.).
-
-5- Execute as células sequencialmente para ver a limpeza, as regras heurísticas e a geração dos gráficos de comparação.
-
-## Linguagens e Ferramentas: 
+## Linguagens e Ferramentas
 
 - Python
 
@@ -75,4 +63,16 @@ Para comprovar e documentar esses resultados, geramos as seguintes análises vis
 - Seaborn
 
 - Matplotlib
+
+## Como Executar o Projeto
+
+1- Clone este repositório.
+
+2- Suba o notebook (.ipynb) no Google Colab.
+
+3- Ative a Aceleração por Hardware: Ambiente de Execução > Alterar tipo de ambiente de execução > GPU T4.
+
+4- Instale as bibliotecas necessárias listadas no início do notebook (transformers, textblob, etc.).
+
+5- Execute as células sequencialmente para ver a limpeza, as regras heurísticas e a geração dos gráficos de comparação.
 
