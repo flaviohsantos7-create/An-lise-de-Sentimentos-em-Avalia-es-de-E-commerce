@@ -50,19 +50,23 @@ Para comprovar e documentar esses resultados, geramos as seguintes análises vis
 
 ## Linguagens e Ferramentas
 
+- Google Colab / GPU T4
+
 - Python
 
 - Pandas
 
 - Scikit-Learn
 
-- Transformers (HuggingFace)
-
-- Google Colab / GPU T4
-
 - Seaborn
 
 - Matplotlib
+
+- Transformers (HuggingFace)
+
+- VADER / LeIA
+
+- TextBlob
 
 ## Como Executar o Projeto
 
