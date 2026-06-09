@@ -16,15 +16,15 @@ Para viabilizar e acelerar o processamento do nosso modelo principal (que exige 
 
 Dados reais da internet são ruidosos, cheios de gírias e ironias. Para que a Inteligência Artificial não fosse "enganada" pelos clientes, nós criamos um motor de regras customizadas que roda junto com os modelos:
 
-    Limpeza e Padronização: Remoção de avaliações vazias, conversão para minúsculas e tratamento de espaçamentos.
+- Limpeza e Padronização: Remoção de avaliações vazias, conversão para minúsculas e tratamento de espaçamentos.
 
-    Tradução de "Internetês": Criação de um dicionário para expandir abreviações comuns no Brasil (ex: vc, pq, blz, fdp).
+- Tradução de "Internetês": Criação de um dicionário para expandir abreviações comuns no Brasil (ex: vc, pq, blz, fdp).
 
-    Listas de Palavras Boas e Ruins: Mapeamos termos chaves de alta polaridade (ex: perfeito, amei vs lixo, quebrado). A inclusão dessa lista aumentou significativamente a performance do nosso modelo principal!
+- Listas de Palavras Boas e Ruins: Mapeamos termos chaves de alta polaridade (ex: perfeito, amei vs lixo, quebrado). A inclusão dessa lista aumentou significativamente a performance do nosso modelo principal!
 
-    Detecção de Sarcasmo: Criamos regras que cruzam "risadas" (kkk, rsrs) com palavras negativas para identificar ironia (ex: "kkkk péssimo produto"), forçando a nota para baixo.
+- Detecção de Sarcasmo: Criamos regras que cruzam "risadas" (kkk, rsrs) com palavras negativas para identificar ironia (ex: "kkkk péssimo produto"), forçando a nota para baixo.
 
-    Níveis de Penalização (Confiança): Implementamos uma lógica de ajuste fino onde, se o modelo estivesse inseguro (baixa confiança estatística na previsão), a nota era "penalizada" ou puxada para o centro (neutro), evitando extremos errados.
+- Níveis de Penalização (Confiança): Implementamos uma lógica de ajuste fino onde, se o modelo estivesse inseguro (baixa confiança estatística na previsão), a nota era "penalizada" ou puxada para o centro (neutro), evitando extremos errados.
 
 
   
