@@ -60,5 +60,19 @@ Para comprovar e documentar esses resultados, geramos as seguintes análises vis
 
 5- Execute as células sequencialmente para ver a limpeza, as regras heurísticas e a geração dos gráficos de comparação.
 
-Linguagens e Ferramentas: Python, Pandas, Scikit-Learn, Transformers (HuggingFace), Google Colab, GPU T4, Seaborn, Matplotlib.
+## Linguagens e Ferramentas: 
+
+- Python
+
+- Pandas
+
+- Scikit-Learn
+
+- Transformers (HuggingFace)
+
+- Google Colab / GPU T4
+
+- Seaborn
+
+- Matplotlib
 
